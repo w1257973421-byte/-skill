@@ -1,0 +1,70 @@
+{
+  "rule_id": "CR-08",
+  "title": "Information Insert",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "在局部信息改变观众判断时使用信息插入。",
+  "dimensions": [
+    "camera",
+    "editing",
+    "gag"
+  ],
+  "reported_observation": "报告列举道具以及约1:38的身份局部信息。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B004",
+      "reported_clip_start_seconds": 56,
+      "reported_clip_end_seconds": null,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 167,
+        "anchor": "约00:56："
+      }
+    },
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B008",
+      "reported_clip_start_seconds": 95,
+      "reported_clip_end_seconds": null,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 345,
+        "anchor": "约01:35以后"
+      }
+    },
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B009",
+      "reported_clip_start_seconds": 98,
+      "reported_clip_end_seconds": null,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 371,
+        "anchor": "01:38左右"
+      }
+    }
+  ],
+  "conditions": [
+    "局部信息比人物全貌更能改变当前判断。"
+  ],
+  "operations": [
+    "确保细节可辨认，并与角色反应或后果建立关系。"
+  ],
+  "failure_conditions": [
+    "细节不可读、缺少语境或反复解释时插入不能形成翻转。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "是否插入同一关键细节",
+    "measurement": "信息识别率和揭示时刻",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "rule_id": "CR-01",
+  "title": "Straight Setup",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "先建立可理解的正常秩序，再让荒唐行为偏离它。",
+  "dimensions": [
+    "camera",
+    "gag"
+  ],
+  "reported_observation": "个体与群体的对抗关系由稳定构图、正反打建立。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B001",
+      "reported_clip_start_seconds": 0,
+      "reported_clip_end_seconds": 30,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 17,
+        "anchor": "第一阶段｜00:00–约00:30"
+      }
+    }
+  ],
+  "conditions": [
+    "观众能理解常态及角色目标。"
+  ],
+  "operations": [
+    "先交代空间、人物目标和常规反应，再引入偏移。"
+  ],
+  "failure_conditions": [
+    "基准不清时荒唐只有噪声；正常世界也可用风格化摄影建立。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "常态建立的清晰度",
+    "measurement": "理解偏移所需时间与理解率",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}

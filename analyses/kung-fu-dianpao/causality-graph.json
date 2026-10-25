@@ -1,0 +1,155 @@
+{
+  "status": "interpretive_model_of_user_provided_film_analysis",
+  "not_a_verified_causal_model": true,
+  "nodes": [
+    {
+      "id": "N01",
+      "function": "goal",
+      "hypothesis": "取得群体认可或服从",
+      "beat_candidate_ids": [
+        "B001"
+      ],
+      "video_evidence_refs": []
+    },
+    {
+      "id": "N02",
+      "function": "strategy",
+      "hypothesis": "在质疑后继续维持强势姿态",
+      "beat_candidate_ids": [
+        "B002"
+      ],
+      "video_evidence_refs": []
+    },
+    {
+      "id": "N03",
+      "function": "escalation",
+      "hypothesis": "对抗从语言转为空间或身体动作",
+      "beat_candidate_ids": [
+        "B003"
+      ],
+      "video_evidence_refs": []
+    },
+    {
+      "id": "N04",
+      "function": "setup",
+      "hypothesis": "道具行为建立未来结果预期",
+      "beat_candidate_ids": [
+        "B004"
+      ],
+      "video_evidence_refs": []
+    },
+    {
+      "id": "N05",
+      "function": "delay",
+      "hypothesis": "结果未立即兑现",
+      "beat_candidate_ids": [
+        "B005"
+      ],
+      "video_evidence_refs": []
+    },
+    {
+      "id": "N06",
+      "function": "reveal",
+      "hypothesis": "身份或关系信息逐步变得可识别",
+      "beat_candidate_ids": [
+        "B006",
+        "B008",
+        "B009"
+      ],
+      "video_evidence_refs": []
+    },
+    {
+      "id": "N07",
+      "function": "reaction",
+      "hypothesis": "旁人表现出变化",
+      "beat_candidate_ids": [
+        "B010"
+      ],
+      "video_evidence_refs": []
+    },
+    {
+      "id": "N08",
+      "function": "reversal",
+      "hypothesis": "原有强弱关系被改变",
+      "beat_candidate_ids": [
+        "B007"
+      ],
+      "video_evidence_refs": []
+    },
+    {
+      "id": "N09",
+      "function": "payoff",
+      "hypothesis": "先前策略产生反向后果",
+      "beat_candidate_ids": [
+        "B011"
+      ],
+      "video_evidence_refs": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "N01",
+      "to": "N02",
+      "proposed_relation": "目标可能推动错误策略",
+      "relation_type": "hypothesis_not_proven",
+      "alternative_explanation_required": true
+    },
+    {
+      "from": "N02",
+      "to": "N03",
+      "proposed_relation": "质疑可能推动行为升级",
+      "relation_type": "hypothesis_not_proven",
+      "alternative_explanation_required": true
+    },
+    {
+      "from": "N03",
+      "to": "N04",
+      "proposed_relation": "升级可能导致道具决策；文本因果不充分",
+      "relation_type": "hypothesis_not_proven",
+      "alternative_explanation_required": true
+    },
+    {
+      "from": "N04",
+      "to": "N05",
+      "proposed_relation": "行为与结果之间存在待测间隔",
+      "relation_type": "hypothesis_not_proven",
+      "alternative_explanation_required": true
+    },
+    {
+      "from": "N05",
+      "to": "N06",
+      "proposed_relation": "延迟后可能逐步揭示信息",
+      "relation_type": "hypothesis_not_proven",
+      "alternative_explanation_required": true
+    },
+    {
+      "from": "N06",
+      "to": "N07",
+      "proposed_relation": "信息变化可能触发反应",
+      "relation_type": "hypothesis_not_proven",
+      "alternative_explanation_required": true
+    },
+    {
+      "from": "N06",
+      "to": "N08",
+      "proposed_relation": "信息变化可能重写强弱关系",
+      "relation_type": "hypothesis_not_proven",
+      "alternative_explanation_required": true
+    },
+    {
+      "from": "N07",
+      "to": "N08",
+      "proposed_relation": "反应可能提示关系变化；不代表角色反应导致反转",
+      "relation_type": "hypothesis_not_proven",
+      "alternative_explanation_required": true
+    },
+    {
+      "from": "N08",
+      "to": "N09",
+      "proposed_relation": "反向后果可能兑现先前铺垫",
+      "relation_type": "hypothesis_not_proven",
+      "alternative_explanation_required": true
+    }
+  ],
+  "source_report": "source-analysis.txt"
+}

@@ -1,0 +1,57 @@
+{
+  "rule_id": "CR-04",
+  "title": "Comedy Delay",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "在行为与兑现之间保留有信息变化的等待。",
+  "dimensions": [
+    "editing",
+    "gag"
+  ],
+  "reported_observation": "报告把道具行为之后回到人物、等待结果的段落解释为延迟。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B004",
+      "reported_clip_start_seconds": 56,
+      "reported_clip_end_seconds": null,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 167,
+        "anchor": "约00:56："
+      }
+    },
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B005",
+      "reported_clip_start_seconds": 58,
+      "reported_clip_end_seconds": 69,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 203,
+        "anchor": "00:58–01:09"
+      }
+    }
+  ],
+  "conditions": [
+    "观众已有明确待兑现的预期。"
+  ],
+  "operations": [
+    "区分行为完成、预期建立、角色反应与结果出现的时刻。"
+  ],
+  "failure_conditions": [
+    "观众尚未理解道具或等待无新增信息时，延迟只是空耗。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "结果兑现前的等待时长",
+    "measurement": "期待强度、理解率和拖沓感",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}

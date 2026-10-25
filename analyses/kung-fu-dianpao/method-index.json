@@ -1,0 +1,56 @@
+{
+  "format": "report-evidence-method-candidates-v1",
+  "not_the_phase_one_video_evidence_schema": true,
+  "cards": [
+    {
+      "rule_id": "CR-01",
+      "title": "Straight Setup",
+      "file": "method-cards/CR-01.json"
+    },
+    {
+      "rule_id": "CR-02",
+      "title": "Performance Hold",
+      "file": "method-cards/CR-02.json"
+    },
+    {
+      "rule_id": "CR-03",
+      "title": "Reaction Amplifier",
+      "file": "method-cards/CR-03.json"
+    },
+    {
+      "rule_id": "CR-04",
+      "title": "Comedy Delay",
+      "file": "method-cards/CR-04.json"
+    },
+    {
+      "rule_id": "CR-05",
+      "title": "Escalation Chain",
+      "file": "method-cards/CR-05.json"
+    },
+    {
+      "rule_id": "CR-06",
+      "title": "Status Framing",
+      "file": "method-cards/CR-06.json"
+    },
+    {
+      "rule_id": "CR-07",
+      "title": "Comedy Spatial Integrity",
+      "file": "method-cards/CR-07.json"
+    },
+    {
+      "rule_id": "CR-08",
+      "title": "Information Insert",
+      "file": "method-cards/CR-08.json"
+    },
+    {
+      "rule_id": "CR-09",
+      "title": "Audience Knowledge Gap",
+      "file": "method-cards/CR-09.json"
+    },
+    {
+      "rule_id": "CR-10",
+      "title": "Serious Direction, Absurd Content",
+      "file": "method-cards/CR-10.json"
+    }
+  ]
+}

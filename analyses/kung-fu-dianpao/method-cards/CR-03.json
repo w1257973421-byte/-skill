@@ -1,0 +1,46 @@
+{
+  "rule_id": "CR-03",
+  "title": "Reaction Amplifier",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "用反应角色呈现事件对关系的影响。",
+  "dimensions": [
+    "performance",
+    "editing",
+    "gag"
+  ],
+  "reported_observation": "报告将房东太太的态度变化解释为关系变化的观众参照。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B010",
+      "reported_clip_start_seconds": null,
+      "reported_clip_end_seconds": null,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 419,
+        "anchor": "房东太太是这场戏"
+      }
+    }
+  ],
+  "conditions": [
+    "旁人反应提供了新增信息，而非重复已知内容。"
+  ],
+  "operations": [
+    "识别反应触发点与目光目标，再安排反应镜头的位置。"
+  ],
+  "failure_conditions": [
+    "反应过度、过早或重复可能泄露结果或拖慢节奏。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "同一反应镜头放在信息揭示之前或之后",
+    "measurement": "笑点识别时刻、理解率与笑意评分",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}

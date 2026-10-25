@@ -1,0 +1,46 @@
+{
+  "rule_id": "CR-07",
+  "title": "Comedy Spatial Integrity",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "使动作发起者、目标与结果的空间关系可读。",
+  "dimensions": [
+    "camera",
+    "blocking",
+    "editing"
+  ],
+  "reported_observation": "报告将约30–56秒的景别扩大解释为服务身体与空间喜剧。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B003",
+      "reported_clip_start_seconds": 30,
+      "reported_clip_end_seconds": 56,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 111,
+        "anchor": "约00:30–00:56"
+      }
+    }
+  ],
+  "conditions": [
+    "笑点依赖观众理解移动路径和动作结果。"
+  ],
+  "operations": [
+    "选择能呈现必要关系的景别，轴线与动作接点服务因果。"
+  ],
+  "failure_conditions": [
+    "过远会丢失关键细节；特写也能补充动作因果，不应全面禁止。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "动作关键瞬间是否切为局部特写",
+    "measurement": "空间因果理解率与短暂动作辨识率",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}

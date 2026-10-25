@@ -1,0 +1,57 @@
+{
+  "rule_id": "CR-06",
+  "title": "Status Framing",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "用构图变化辅助呈现人物关系的变化。",
+  "dimensions": [
+    "camera",
+    "blocking"
+  ],
+  "reported_observation": "报告指出个体从占据注意力转为群体构图中的小比例人物。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B001",
+      "reported_clip_start_seconds": 0,
+      "reported_clip_end_seconds": 30,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 17,
+        "anchor": "第一阶段｜00:00–约00:30"
+      }
+    },
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B007",
+      "reported_clip_start_seconds": 84,
+      "reported_clip_end_seconds": 99,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 297,
+        "anchor": "01:24–01:39"
+      }
+    }
+  ],
+  "conditions": [
+    "地位变化有行为或他人响应证据支持。"
+  ],
+  "operations": [
+    "比较位置、面积、视线、移动主动权，并关联剧情后果。"
+  ],
+  "failure_conditions": [
+    "中心不必强势，远景不必弱势；构图不能单独证明权力变化。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "关系变化后是否保持或改变画面占比",
+    "measurement": "权力关系判断与情节理解",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}

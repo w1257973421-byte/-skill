@@ -1,0 +1,45 @@
+{
+  "rule_id": "CR-02",
+  "title": "Performance Hold",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "在完整动作链承担笑点时，为表演保留连续时间。",
+  "dimensions": [
+    "performance",
+    "editing"
+  ],
+  "reported_observation": "报告指出约17–30秒表演段镜头变长，容纳动作、停顿和自我确认。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B002",
+      "reported_clip_start_seconds": 17,
+      "reported_clip_end_seconds": 30,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 64,
+        "anchor": "00:17–00:30 是第一个"
+      }
+    }
+  ],
+  "conditions": [
+    "表情、动作与停顿的先后关系对笑点可读性重要。"
+  ],
+  "operations": [
+    "先辨认动作链的完成点，再决定切点；不机械追求长镜头。"
+  ],
+  "failure_conditions": [
+    "表演缺乏信息变化时长镜头会拖沓；切换视点也可能必要。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "是否在动作链完成前插入反应镜头",
+    "measurement": "动作因果理解率与笑意评分",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}

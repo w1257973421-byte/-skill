@@ -1,0 +1,69 @@
+{
+  "rule_id": "CR-05",
+  "title": "Escalation Chain",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "重复一个错误时，提高至少一个明确的代价维度。",
+  "dimensions": [
+    "gag",
+    "blocking"
+  ],
+  "reported_observation": "报告将装腔、身体冲突与危险身份揭示归纳为升级链。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B002",
+      "reported_clip_start_seconds": 17,
+      "reported_clip_end_seconds": 30,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 64,
+        "anchor": "00:17–00:30 是第一个"
+      }
+    },
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B003",
+      "reported_clip_start_seconds": 30,
+      "reported_clip_end_seconds": 56,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 111,
+        "anchor": "约00:30–00:56"
+      }
+    },
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B006",
+      "reported_clip_start_seconds": 69,
+      "reported_clip_end_seconds": 84,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 257,
+        "anchor": "01:09–01:24"
+      }
+    }
+  ],
+  "conditions": [
+    "各次行为由角色目标及前次后果相连。"
+  ],
+  "operations": [
+    "逐次记录风险、身份、尺度或社会后果的变化。"
+  ],
+  "failure_conditions": [
+    "只增大动作幅度不等于升级；角色行为失去动机时因果链断裂。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "重复是否增加可理解的社会后果",
+    "measurement": "升级辨识率和角色行为可理解性",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}

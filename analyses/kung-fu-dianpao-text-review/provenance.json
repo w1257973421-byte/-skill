@@ -1,0 +1,22 @@
+{
+  "source_type": "user_supplied_analysis_text",
+  "source_text_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+  "film_title_user_supplied": "功夫",
+  "video_filename_user_supplied": "点炮截取.mp4",
+  "video_available_in_workspace": false,
+  "video_sha256": null,
+  "video_directly_reviewed": false,
+  "audio_directly_reviewed": false,
+  "reported_duration_seconds": 119.5,
+  "reported_visual_cut_count": 23,
+  "duration_verified": false,
+  "cut_count_verified": false,
+  "previous_import_blocker": "Uploaded video exceeds attachment download tool 32 MiB limit",
+  "analysis_status": "text-derived hypotheses only; not a completed film analysis",
+  "timestamp_basis": "unverified clip-relative estimates in supplied text; not source PTS or SMPTE",
+  "existing_review_script_limit_seconds": [
+    30,
+    90
+  ],
+  "intake_plan": "Obtain readable original; for 119.5s select overlapping 30–90s windows and keep full-source timestamp mapping, or separately implement a documented duration override; neither done yet"
+}

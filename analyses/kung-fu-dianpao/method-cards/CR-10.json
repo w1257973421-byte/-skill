@@ -1,0 +1,58 @@
+{
+  "rule_id": "CR-10",
+  "title": "Serious Direction, Absurd Content",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "测试克制表达与荒唐内容之间的反差。",
+  "dimensions": [
+    "camera",
+    "performance",
+    "gag"
+  ],
+  "reported_observation": "报告将稳定摄影与认真表演同荒唐行为的反差作为总结。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B001",
+      "reported_clip_start_seconds": 0,
+      "reported_clip_end_seconds": 30,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 17,
+        "anchor": "第一阶段｜00:00–约00:30"
+      }
+    },
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B002",
+      "reported_clip_start_seconds": 17,
+      "reported_clip_end_seconds": 30,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 64,
+        "anchor": "00:17–00:30 是第一个"
+      }
+    }
+  ],
+  "conditions": [
+    "角色相信自己的目标与行为逻辑。"
+  ],
+  "operations": [
+    "保持角色目标自洽，选择与场景一致的表演幅度及视听风格。"
+  ],
+  "failure_conditions": [
+    "克制不是普遍最优；风格化、夸张摄影也可能有明确喜剧功能。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "同一动作的表演幅度",
+    "measurement": "可信度、荒唐感与笑意评分",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}

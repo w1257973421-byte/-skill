@@ -1,0 +1,225 @@
+{
+  "status": "text_only_video_unverified",
+  "beats": [
+    {
+      "beat_id": "B001",
+      "phase_candidate": "Setup",
+      "reported_clip_start_seconds": 0,
+      "reported_clip_end_seconds": 30,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "approximate_from_supplied_text",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 17,
+        "anchor": "第一阶段｜00:00–约00:30"
+      },
+      "reported_event": "角色与群体建立对抗关系",
+      "analysis_hypothesis": "人物目标是取得服从或认可；目标仍是文本推断",
+      "verification_task": "核对人物言行、群体反应和站位，不能把装腔当作演员心理",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B002",
+      "phase_candidate": "Escalation",
+      "reported_clip_start_seconds": 17,
+      "reported_clip_end_seconds": 30,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "approximate_from_supplied_text",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 64,
+        "anchor": "00:17–00:30 是第一个"
+      },
+      "reported_event": "完整表演与长镜头候选",
+      "analysis_hypothesis": "延长镜头可能使动作与自我确认更清晰",
+      "verification_task": "比较此前镜头时长，并测量动作、停顿、表情与台词起止",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B003",
+      "phase_candidate": "Escalation",
+      "reported_clip_start_seconds": 30,
+      "reported_clip_end_seconds": 56,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "approximate_from_supplied_text",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 111,
+        "anchor": "约00:30–00:56"
+      },
+      "reported_event": "语言对抗转为身体调度",
+      "analysis_hypothesis": "景别扩大可能使动作因果同时可见",
+      "verification_task": "确认追赶、闪避等描述是否实际出现，不按文本补造动作",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B004",
+      "phase_candidate": "Setup",
+      "reported_clip_start_seconds": 56,
+      "reported_clip_end_seconds": null,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "approximate_from_supplied_text",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 167,
+        "anchor": "约00:56："
+      },
+      "reported_event": "道具信息插入候选",
+      "analysis_hypothesis": "局部特写可能建立结果预期",
+      "verification_task": "点状时间定位；结束未知，检查道具可读性和实际切点",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B005",
+      "phase_candidate": "Delay",
+      "reported_clip_start_seconds": 58,
+      "reported_clip_end_seconds": 69,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "approximate_from_supplied_text",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 203,
+        "anchor": "00:58–01:09"
+      },
+      "reported_event": "行为与结果之间的延迟候选",
+      "analysis_hypothesis": "观众可能先于角色等待结果",
+      "verification_task": "核实观众得到的是点火信息还是危险身份，二者不能混同",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B006",
+      "phase_candidate": "Reveal",
+      "reported_clip_start_seconds": 69,
+      "reported_clip_end_seconds": 84,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "approximate_from_supplied_text",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 257,
+        "anchor": "01:09–01:24"
+      },
+      "reported_event": "威胁身份分层揭示候选",
+      "analysis_hypothesis": "信息碎片可能逐步修正观众预期",
+      "verification_task": "逐项定位可识别信息；测量观众最早能判断身份的画面",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B007",
+      "phase_candidate": "Reversal",
+      "reported_clip_start_seconds": 84,
+      "reported_clip_end_seconds": 99,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "approximate_from_supplied_text",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 297,
+        "anchor": "01:24–01:39"
+      },
+      "reported_event": "群体构图与地位变化候选",
+      "analysis_hypothesis": "构图占比变化可能表达地位反转",
+      "verification_task": "不能用远景单独证明权力变化，需行为结果与关系证据",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B008",
+      "phase_candidate": "Reveal",
+      "reported_clip_start_seconds": 95,
+      "reported_clip_end_seconds": null,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "approximate_from_supplied_text",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 345,
+        "anchor": "约01:35以后"
+      },
+      "reported_event": "身份信息和反应镜头交替候选",
+      "analysis_hypothesis": "信息拆分可能要求观众自行整合",
+      "verification_task": "与 B007/B009 可重叠，结束未知，不假装是独立不重叠镜头",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B009",
+      "phase_candidate": "Reveal",
+      "reported_clip_start_seconds": 98,
+      "reported_clip_end_seconds": null,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "approximate_from_supplied_text",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 371,
+        "anchor": "01:38左右"
+      },
+      "reported_event": "衣领或颈部局部信息候选",
+      "analysis_hypothesis": "局部身份线索可能触发性质判断",
+      "verification_task": "精确物件、镜头边界与识别作用均需看片确认",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B010",
+      "phase_candidate": "Reaction",
+      "reported_clip_start_seconds": null,
+      "reported_clip_end_seconds": null,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "not_provided",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 419,
+        "anchor": "房东太太是这场戏"
+      },
+      "reported_event": "反应角色功能候选",
+      "analysis_hypothesis": "旁人反应可能帮助观众识别关系变化",
+      "verification_task": "原文本未给起止；核实反应发生顺序、眼神和延迟",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    },
+    {
+      "beat_id": "B011",
+      "phase_candidate": "Payoff",
+      "reported_clip_start_seconds": null,
+      "reported_clip_end_seconds": null,
+      "source_start_pts_seconds": null,
+      "source_end_pts_seconds": null,
+      "timing_status": "not_provided",
+      "text_locator": {
+        "file": "supplied-notes.txt",
+        "line": 524,
+        "anchor": "地位彻底反转"
+      },
+      "reported_event": "最终兑现候选",
+      "analysis_hypothesis": "先前行为的后果可能完成地位反转",
+      "verification_task": "原文本未给兑现的可观察行为与边界，不把段落末尾当笑点结束",
+      "shot_ids": [],
+      "video_evidence_refs": [],
+      "review_status": "text_only_video_unverified"
+    }
+  ]
+}

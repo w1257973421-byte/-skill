@@ -1,0 +1,69 @@
+{
+  "rule_id": "CR-09",
+  "title": "Audience Knowledge Gap",
+  "status": "hypothesis",
+  "evidence_level": "user_provided_film_analysis_report",
+  "rule": "分别记录观众、主角与旁人知道什么。",
+  "dimensions": [
+    "gag",
+    "editing"
+  ],
+  "reported_observation": "报告将等待、身份逐层揭示与角色反应联系到信息差。",
+  "evidence": [
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B005",
+      "reported_clip_start_seconds": 58,
+      "reported_clip_end_seconds": 69,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 203,
+        "anchor": "00:58–01:09"
+      }
+    },
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B006",
+      "reported_clip_start_seconds": 69,
+      "reported_clip_end_seconds": 84,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 257,
+        "anchor": "01:09–01:24"
+      }
+    },
+    {
+      "source_report": "source-analysis.txt",
+      "source_report_sha256": "4f77708b27096c5328266b2abb4b091e4adc169224989115575b1b71d0167d13",
+      "beat_id": "B010",
+      "reported_clip_start_seconds": null,
+      "reported_clip_end_seconds": null,
+      "text_locator": {
+        "file": "source-analysis.txt",
+        "line": 419,
+        "anchor": "房东太太是这场戏"
+      }
+    }
+  ],
+  "conditions": [
+    "能定位信息首次足以被识别的呈现时刻。"
+  ],
+  "operations": [
+    "分别标记道具知识、身份知识和后果知识，不笼统写谁知道危险。"
+  ],
+  "failure_conditions": [
+    "看见道具不等于知道后果；信息差可能来自观众先验而非影片呈现。"
+  ],
+  "alternative_explanations": [
+    "效果也可能来自表演、情境或观众先验，不能仅凭此片段证明普遍规律。"
+  ],
+  "validation": {
+    "control": "固定同一原创情境、角色目标、素材与非实验变量。",
+    "variable": "关键信息在观众与角色之间的呈现顺序",
+    "measurement": "预期判断和结果意外程度",
+    "falsification": "未观察到稳定效果差异，或效果被替代解释充分说明。",
+    "results": []
+  }
+}
