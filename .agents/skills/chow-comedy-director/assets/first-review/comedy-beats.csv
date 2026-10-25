@@ -1,0 +1,1 @@
+beat_id,shot_ids,source_start_pts_seconds,source_end_pts_seconds_exclusive,phase,audience_knowledge,expected_outcome,deviation,payoff,performance,blocking,sound,cut_relation,timing_seconds,human_observation,ai_interpretation,unverified_inference,evidence_refs,review_status,method_ids
