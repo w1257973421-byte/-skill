@@ -1,0 +1,4 @@
+interface:
+  display_name: "无厘头喜剧导演研究"
+  short_description: "拆解电影镜头、表演、调度、声音和节奏，提炼可迁移的原创喜剧导演方法"
+  default_prompt: "使用 $chow-comedy-director 分析提供的片段，以时间码证据建立逐镜头与喜剧节拍分析，并提炼原创导演方法。"

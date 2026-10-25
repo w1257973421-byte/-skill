@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "method_id": "M0001",
+  "title": "待研究：预期建立后延迟反应",
+  "status": "hypothesis",
+  "dimensions": [
+    "performance",
+    "editing"
+  ],
+  "conditions": [
+    "待填写：观众是否已建立明确预期"
+  ],
+  "operations": [
+    "待填写：测量信息揭示与反应之间的间隔"
+  ],
+  "expected_audience_effect": "待验证：反应时机是否改变预期偏移的可读性",
+  "failure_conditions": [
+    "预期尚未建立时延迟可能只是拖沓"
+  ],
+  "evidence": [
+    {
+      "source_id": "TEMPLATE-NOT-REAL-EVIDENCE",
+      "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "shot_ids": [
+        "S0001"
+      ],
+      "source_start_pts_seconds": 0,
+      "source_end_pts_seconds": 1,
+      "observation": "模板占位；请替换为实际观看证据",
+      "review_status": "unreviewed"
+    }
+  ],
+  "confidence": "low",
+  "alternative_explanations": [
+    "可能由表演幅度而非延迟造成"
+  ],
+  "original_transfer": {
+    "new_context": "待填全新场景与人物目标",
+    "changed_elements": [
+      "人物关系待填",
+      "场景待填",
+      "道具与动作因果待填"
+    ],
+    "abstract_invariant": "预期与反应之间的信息时差",
+    "non_copying_check": "逐项检查台词、动作链、角色造型与标志性桥段是否独立"
+  },
+  "validation": {
+    "control": "相同原创场景与表演",
+    "variable": "反应间隔",
+    "measurement": "理解率、笑点识别位置、观众主观反馈",
+    "falsification": "改变间隔并未产生可重复的效果差异",
+    "results": []
+  }
+}

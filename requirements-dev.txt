@@ -1,0 +1,4 @@
+# Runtime preprocessing uses Python standard library only.
+# Development: method schema tests and official skill-creator validation.
+jsonschema==4.23.0
+PyYAML==6.0.2

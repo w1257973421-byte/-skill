@@ -1,0 +1,251 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "method_id": {
+      "type": "string",
+      "pattern": "^M[0-9]{4,}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "hypothesis",
+        "tested",
+        "confirmed"
+      ]
+    },
+    "dimensions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "camera",
+          "performance",
+          "blocking",
+          "gag",
+          "sound",
+          "editing"
+        ]
+      }
+    },
+    "conditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "operations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "expected_audience_effect": {
+      "type": "string",
+      "minLength": 1
+    },
+    "failure_conditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "shot_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "source_start_pts_seconds": {
+            "type": "number"
+          },
+          "source_end_pts_seconds": {
+            "type": "number"
+          },
+          "observation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "review_status": {
+            "enum": [
+              "unreviewed",
+              "reviewed"
+            ]
+          }
+        },
+        "required": [
+          "source_id",
+          "source_sha256",
+          "shot_ids",
+          "source_start_pts_seconds",
+          "source_end_pts_seconds",
+          "observation",
+          "review_status"
+        ]
+      }
+    },
+    "confidence": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "original_transfer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "new_context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "changed_elements": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "abstract_invariant": {
+          "type": "string",
+          "minLength": 1
+        },
+        "non_copying_check": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "new_context",
+        "changed_elements",
+        "abstract_invariant",
+        "non_copying_check"
+      ]
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "control": {
+          "type": "string",
+          "minLength": 1
+        },
+        "variable": {
+          "type": "string",
+          "minLength": 1
+        },
+        "measurement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "falsification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "results": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "control",
+        "variable",
+        "measurement",
+        "falsification",
+        "results"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "method_id",
+    "title",
+    "status",
+    "dimensions",
+    "conditions",
+    "operations",
+    "expected_audience_effect",
+    "failure_conditions",
+    "evidence",
+    "confidence",
+    "alternative_explanations",
+    "original_transfer",
+    "validation"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chow-comedy-director:method:1.0",
+  "title": "Comedy directing method card",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "confirmed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evidence": {
+            "items": {
+              "properties": {
+                "review_status": {
+                  "const": "reviewed"
+                }
+              }
+            }
+          },
+          "validation": {
+            "properties": {
+              "results": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
