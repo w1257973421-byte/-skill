@@ -1,0 +1,3 @@
+# Preserve supplied source text byte-for-byte, including original line endings.
+kung-fu-dianpao/source-analysis.txt -text -whitespace
+kung-fu-dianpao-text-review/supplied-notes.txt -text -whitespace
